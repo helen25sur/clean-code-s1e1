@@ -39,7 +39,7 @@ h3 {
 .section-task__item-task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .section-task__item-wrapper {
@@ -138,7 +138,7 @@ h3 {
 }
 
 .section__list-item >  .item-task__input_text {
-  width: 226px
+  width: 226px;
 }
 
 .item-task__btn_delete:hover {
