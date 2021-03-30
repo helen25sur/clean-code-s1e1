@@ -6,58 +6,58 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   </head>
 
-  <body>
+  <body class="main-page">
 
-    <div class="aaa">
-      <img src="assets/images/eisenhower-matrix.jpg">
-      <a class="more_inf" 
+    <div class="main-page__header">
+      <img class="header__inf-image" src="assets/images/eisenhower-matrix.jpg">
+      <a class="inf-image__see-more" 
           href="https://goal-life.com/page/method/matrix-eisenhower">
           Want more details?
       </a>
     </div>
 
-    <div class="centered-main-page-element">
-      <p id="top-section-for-adding-element-to-list">
-        <label for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
-          <input id="new-task"class="task" type="text">
-          <button>Add</button>
+    <div class="main-content">
+      <p class="main-content__section-add-task" id="top-section-for-adding-element-to-list">
+        <label class="section-add-task__title" for="new-task">Add Item</label>
+        <div class="section-add-task__item-wrapper">
+          <input id="new-task" class="item-task__input_text section-task__item-task section-task__item-task_new" type="text">
+          <button class="item-task__button item-task__button_add">Add</button>
         </div>
       </p>
 
-      <h3>Todo</h3>
+      <h3 class="section-tasks__title">Todo</h3>
 
-      <ul id="incomplete-tasks">
-        <li>
-          <input type="checkbox">
-          <label class="task">Pay Bills</label>
-          <input type="text">
-          <button class="edit">Edit</button>
-          <button class="delete">
-            <img src="assets/images/icons/remove.svg">
+      <ul id="incomplete-tasks" class="main-content__section main-content__section-incomplete-tasks">
+        <li class="section__list-item">
+          <input class="item-task__input_checkbox" type="checkbox">
+          <label class="section-task__item-task section-task__item-label">Pay Bills</label>
+          <input class="item-task__input_text" type="text">
+          <button class="item-task__button item-task__button_edit">Edit</button>
+          <button class="item-task__button item-task__button_delete">
+            <img class="button__img-delete" src="assets/images/icons/remove.svg">
           </button>
         </li>
-        <li class="edit-mode">
-          <input type="checkbox">
-          <label class="task">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task">
-          <button class="edit">Save</button>
-          <button class="delete">
-            <img src="assets/images/icons/remove.svg">
+        <li class="section__list-item_edit-mode section__list-item">
+          <input class="item-task__input_checkbox" type="checkbox">
+          <label class="section-task__item-task section-task__item-label">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="item-task__input_text section-task__item-task">
+          <button class="item-task__button item-task__button_edit">Save</button>
+          <button class="item-task__button item-task__button_delete">
+            <img class="button__img-delete" src="assets/images/icons/remove.svg">
           </button>
         </li>
       </ul>
 
-      <h3>Completed</h3>
+      <h3 class="section-tasks__title">Completed</h3>
 
-      <ul id="completed-tasks">
-        <li>
-          <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete">
-            <img src="assets/images/icons/remove.svg">
+      <ul id="completed-tasks" class="main-content__section main-content__section-completed-tasks">
+        <li class="section__list-item">
+          <input class="item-task__input_checkbox" type="checkbox" checked>
+          <label class="section-task__item-task section-task__item-label section-task__item-task_completed">See the Doctor</label>
+          <input type="text" class="item-task__input_text section-task__item-task">
+          <button class="item-task__button item-task__button_edit">Edit</button>
+          <button class="item-task__button item-task__button_delete">
+            <img class="button__img-delete" src="assets/images/icons/remove.svg">
           </button>
         </li>
       </ul>
