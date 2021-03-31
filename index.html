@@ -8,24 +8,25 @@
 
   <body class="main-page">
 
-    <div class="main-page__header">
+    <header class="main-page__header">
       <img class="header__inf-image" src="assets/images/eisenhower-matrix.jpg">
       <a class="inf-image__see-more" 
           href="https://goal-life.com/page/method/matrix-eisenhower">
           Want more details?
       </a>
-    </div>
+    </header>
 
-    <div class="main-content">
-      <p class="main-content__section-add-task" id="section-add-task">
+    <main class="main-content">
+			<h1 class="main-content__main-title">Todo App</h1>
+      <section class="main-content__section-add-task" id="section-add-task">
         <label class="section-add-task__title" for="new-task">Add Item</label>
         <div class="section-add-task__item-wrapper">
           <input id="new-task" class="item-task__input_text section-task__item-task section-task__item-task_new" type="text">
           <button class="item-task__btn item-task__btn_add">Add</button>
         </div>
-      </p>
+      </section>
 
-      <h3 class="section-tasks__title">Todo</h3>
+      <h2 class="section-tasks__title">Todo</h2>
 
       <ul id="incomplete-tasks" class="main-content__section main-content__section-incomplete-tasks">
         <li class="section__list-item">
@@ -48,7 +49,7 @@
         </li>
       </ul>
 
-      <h3 class="section-tasks__title">Completed</h3>
+      <h2 class="section-tasks__title">Completed</h2>
 
       <ul id="completed-tasks" class="main-content__section main-content__section-completed-tasks">
         <li class="section__list-item">
@@ -62,7 +63,7 @@
         </li>
       </ul>
 
-    </div>
+    </main>
 
     <script src="js/app.js"></script>
   </body>
