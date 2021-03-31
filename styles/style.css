@@ -1,7 +1,7 @@
 /* Basic Style */
 ul {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 li, 
@@ -135,14 +135,14 @@ h2 {
   margin: 0 10px;
 }
 
-.section__list-item > .section-task__item-label {
+.section__list-item .section-task__item-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.section__list-item >  .item-task__input_text {
+.section__list-item  .item-task__input_text {
   width: 226px;
 }
 
@@ -167,16 +167,16 @@ h2 {
 }
 
 /* Edit Task */
-.section__list-item > .item-task__input_text {
+.section__list-item .item-task__input_text {
   display: none;
 }
 
-.section__list-item_edit-mode > .item-task__input_text {
+.section__list-item_edit-mode .item-task__input_text {
   display: inline-block;
   width: 224px
 }
 
-.section__list-item_edit-mode > .section-task__item-label {
+.section__list-item_edit-mode .section-task__item-label {
   display: none;
 }
 
